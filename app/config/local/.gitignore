@@ -1,0 +1,4 @@
+# ignore all files inside the app/config/local
+*
+# except .gitignore
+!.gitignore
