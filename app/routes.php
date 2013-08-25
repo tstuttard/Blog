@@ -11,6 +11,9 @@
 |
 */
 Route::get('/welcome', 'HomeController@showWelcome');
+
+//Route::get('/login', 'LoginController@index');
+
 Route::get('/', function()
 {
 	return View::make('hello');
